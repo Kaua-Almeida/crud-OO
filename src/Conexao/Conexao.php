@@ -5,17 +5,13 @@ use PDOException;
 
 class Conexao
 {
-    private static $dsn = "mysql:host=localhost;dbname=exemplo";
-    private static $username = "exemplo";
+    private static $dsn = "mysql:host=localhost;dbname=produtos";
+    private static $username = "root";
     private static $password = "";
 
     private static PDO $pdo;
 
-    public function __construct()
-    {
-      
-        self::conexao();
-    }
+ 
     public static function conexao()   
     {
         if (!isset(self::$pdo)) {

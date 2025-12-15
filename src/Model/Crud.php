@@ -23,5 +23,10 @@ class Crud
         $stmt->execute();
 
     }
+    public function getAll(){
+      $stmt = $this->conexao->prepare("SELECT * FROM `produtosestoque`");
+      $stmt->execute();
+      return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
 }
 
