@@ -1,0 +1,30 @@
+# Dependências do Composer
+/vendor/
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Logs
+*.log
+logs/
+
+# Cache
+cache/
+tmp/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+
+# PHPUnit
+.phpunit.result.cache
+
+# Arquivos de build
+/dist/
+/build/

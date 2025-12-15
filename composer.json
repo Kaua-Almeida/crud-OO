@@ -1,0 +1,9 @@
+{
+    "name": "kaua/crud",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {}
+}
